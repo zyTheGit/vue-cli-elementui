@@ -27,3 +27,8 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### 使用yarn add vue-skeleton-webpack-plugin  创建骨架屏
+
+### 使用vue-lazyload 赖加载图片
