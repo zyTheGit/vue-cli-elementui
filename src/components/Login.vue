@@ -58,6 +58,7 @@
         </el-form-item>
       </el-form>
     </div>
+    <div class='footer'>Happiness Originates From Life</div>
   </el-container>
 </template>
 <script>
@@ -92,14 +93,20 @@ export default {
   }
 };
 </script>
-<style  rel="stylesheet/scss" lang="scss">
+<style  rel="stylesheet/scss" lang="scss" scope>
 .login {
   .el-image {
     position: fixed;
     height: 100%;
     width: 100%;
   }
-
+  .footer{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    color:#fff;
+    font-size:30px;
+  }
   .login_div {
     background-color: rgba(0, 0, 0, 0.6);
     width: 45%;
